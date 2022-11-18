@@ -2,8 +2,8 @@ package quiz_code;
 
 public class Question {
 	//data fields
-	String question;
-	String answer;
+	private String question;
+	private String answer;
 	
 	//default constructor
 	public Question() {

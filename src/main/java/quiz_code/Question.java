@@ -36,7 +36,4 @@ public class Question {
 	public boolean grade(String userAns) {
 		return (answer.equals(userAns));
 	}
-	
-	
-
 }

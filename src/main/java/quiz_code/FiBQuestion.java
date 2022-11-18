@@ -20,6 +20,7 @@ public class FiBQuestion extends Question {
 		//set question and answer
 		super.setQuestion(questionNoAnswer);
 		super.setAnswer(answer);
+
 	}
 	
 	//method to parse out answer from question

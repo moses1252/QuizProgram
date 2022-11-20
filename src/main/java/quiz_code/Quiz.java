@@ -12,20 +12,24 @@ public class Quiz {
 		//do nothing
 	}
 	
+	//add question
 	public void addQuestion(Question question) {
 		questions.add(question);
 	}
 	
+	//add answer
 	public void storeAns(String userInput) {
 		this.userInput.add(userInput);
 	}
 	
+	//store user input
 	public void storeAns(char userInput) {
 		String ans = "";
 		ans += userInput;
 		this.userInput.add(ans);
 	}
 	
+	//grade quiz
 	public String gradeQuiz() {
 		double grade = 0.0;
 		

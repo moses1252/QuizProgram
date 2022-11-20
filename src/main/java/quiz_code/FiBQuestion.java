@@ -1,14 +1,6 @@
 package quiz_code;
 
 public class FiBQuestion extends Question {
-//	public static void main(String[] args) {
-//		String testing = "HTML stands for _HyperText Markup Language_ but it is not a programming language?";
-//		
-//		System.out.println(parseAns(testing));
-//		System.out.println(hideAns(testing));
-//	}
-	
-	
 	public FiBQuestion(String question) {
 		super();
 		//parse answer from question

@@ -85,7 +85,6 @@ public class Quiz_Tester {
 		String testing = quiz.gradeQuiz();
 		String expected = "66%";
 		
-		//test
 		//this should run without failure trace
 		assertEquals(testing, expected);
 	}
